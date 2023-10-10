@@ -1,0 +1,31 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	
+	text-decoration: none;
+	list-style: none;
+}
+.navbar{
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    align-items: center;
+
+}
+.navbar a{
+    font-family: 'ruda';
+    color: white;
+    font-size: 18px; 
+}
+.navbar a:first-child{
+    margin-right: 600px;
+    font-size: 22px;
+}
+.cont{
+    height: 400px;
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(39, 39, 39, 0.1) 0.01%, rgba(0, 0, 0, 0.13) 13.02%, #000000 100%), url("wood.png");
+    background-size: cover;
+    
+}
