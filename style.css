@@ -2,7 +2,7 @@
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	
+	font-family: 'ruda';
 	text-decoration: none;
 	list-style: none;
     overflow-x: hidden;
@@ -16,7 +16,7 @@
 
 }
 .navbar a{
-    font-family: 'ruda';
+
     color: white;
     font-size: 24px; 
 }
@@ -31,11 +31,17 @@
     background-size: cover;
 }
 .cont h1 {
+    overflow: hidden;
     color: white;
     font-family: 'quintessential' ;
     font-size: 60px;
     text-align: center;
-    margin-top: 150px; 
+    margin-top: 150px;
+    border-bottom: 3px solid #F2C94C; 
+    width: 25%;
+    margin-left: 38%;
+    line-height: 60px;
+    
 }
 .cont p{
     width: 800px;
@@ -66,24 +72,51 @@
     margin-top: -470px;
 }
 .cont2 h1{
+    overflow: hidden;
     color: white;
     font-family: 'quintessential' ;
     font-size: 60px;
     text-align: center;
     margin-top: 10px;
+    border-bottom: 3px solid #F2C94C; 
+    width: 25%;
+    margin-left: 38%;
+    line-height: 60px;
 }
 
 .ayoub{
     display: flex;
     justify-content: center;
-    height: 90px;
+    height: 100px;
+    margin-left: 20px
 
 }
 .ayoub a{
-    overflow: hidden;
+    overflow: hidden;   
 }
 .ayoub a img{
-    
-    margin: 20px;
-    
+    height: 100px;
+    width: 100px;
+    margin: 20px ;
+      
+}
+.radia{
+    height: 70px;
+    background-color: #000000;
+}
+.radia p {
+    color: white;
+    font-size: 24px; 
+    text-align: center;
+    margin-top: 20px;
+    letter-spacing: 3px;
+}
+.text1{
+    height: 700px;
+    width: 500px;
+    background-color: aqua;
+    color: azure;
+}
+.text1 p{
+    font-size: 24px;
 }
