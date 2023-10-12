@@ -13,6 +13,7 @@
     justify-content: space-around;
     background-color: black;
     align-items: center;
+    
 
 }
 .navbar a{
@@ -58,7 +59,7 @@
     margin-top: -80px;
 }
 .cont1 {
-    height: 2000px ;
+    height: 1900px ;
     background-color: #000000;
 }
 .cont2{
@@ -112,11 +113,79 @@
     letter-spacing: 3px;
 }
 .text1{
-    height: 700px;
-    width: 500px;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-around;
     color: azure;
+    margin-top: 100px;
+    
 }
-.text1 p{
-    font-size: 24px;
+.about{
+    width: 600px;
+}
+.about h1{
+    width: 320px;
+    overflow: hidden;
+    color: white;
+    font-family: 'quintessential' ;
+    font-size: 60px;
+    border-bottom: 3px solid #F2C94C; 
+    line-height: 60px;
+    
+}
+.about p{
+    font-size:33px;
+    line-height: 40px;
+    margin-top: 25px;
+    
+}
+.about input[type="submit"]{
+	background-color: transparent;
+	padding: 23px;
+	color:#F2C94C ;
+	margin-top: 20px;
+	cursor: pointer; 
+    border:3px solid #F2C94C;  
+    font-size: 15px;
+
+}
+.menu h1{
+    overflow: hidden;
+    color: white;
+    font-family: 'quintessential' ;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 80px;
+    border-bottom: 3px solid #F2C94C; 
+    width: 25%;
+    margin-left: 38%;
+    line-height: 60px;
+
+}
+.menu p{
+    font-size:33px;
+    line-height: 40px;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    width: 70%;
+    margin-left: 15%;
+    letter-spacing: 1px;
+}
+.image{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 50px;
+}
+.but input[type="submit"]{
+	background-color: transparent;
+	padding: 15px 220px;
+	color:#F2C94C ;
+	margin-top: 50px;
+	cursor: pointer; 
+    border:3px solid #F2C94C;  
+    font-size: 15px;
+    margin-left: 34%;
+
 }
