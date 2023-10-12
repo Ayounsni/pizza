@@ -13,6 +13,8 @@
     justify-content: space-around;
     background-color: black;
     align-items: center;
+    position: fixed;
+    width: 100%;
     
 
 }
@@ -28,7 +30,7 @@
 .cont{
     height: 900px;
     overflow: hidden;
-    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(39, 39, 39, 0.1) 0.01%, rgba(0, 0, 0, 0.13) 13.02%, #000000 100%), url("wood.png");
+    background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(39, 39, 39, 0.1) 0.01%, rgba(0, 0, 0, 0.13) 13.02%, #000000 100%), url("../img/wood.png");
     background-size: cover;
 }
 .cont h1 {
@@ -62,10 +64,14 @@
     height: 1900px ;
     background-color: #000000;
 }
+.pont{
+    height: 1800px ;
+    background-color: #000000; 
+}
 .cont2{
     height: 900px;
     overflow: hidden;
-    background-image: url(wod.png);
+    background-image: url("../img/wod.png");
     background-size: cover;
 }
 .cont2 img{
@@ -188,4 +194,129 @@
     font-size: 15px;
     margin-left: 34%;
 
+}
+.titre h1{
+    overflow: hidden;
+    color: white;
+    font-family: 'quintessential' ;
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 3px solid #F2C94C; 
+    width: 20%;
+    margin-left: 12%;
+    line-height: 60px;
+    margin-top: 100px;
+}
+.text2{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    color: azure;
+     margin-top: 30px;
+}
+.about2{
+    width: 645px;
+    height: 700px;
+}
+  
+.about2 p{
+    font-size:33px;
+    line-height: 40px; 
+}
+.titre2 h1{
+    overflow: hidden;
+    color: white;
+    font-family: 'quintessential' ;
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 3px solid #F2C94C; 
+    width: 17%;
+    margin-left: 40%;
+    line-height: 60px;
+    margin-top: 80px;
+}
+.text3{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    color: azure;
+    margin-top: 80px;
+}
+.about3{
+    width: 500px;
+    height: 600px;
+    font-size:33px;
+    line-height: 40px;
+}
+.image3 img{
+    height: 560px;
+}
+.titre3 h1{
+    overflow: hidden;
+    color: white;
+    font-family: 'quintessential' ;
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 3px solid #F2C94C; 
+    width: 23%;
+    margin-left: 38%;
+    line-height: 60px;
+    margin-top: 80px;
+}
+.cont1 h2{
+    overflow: hidden;
+    color: #F2C94C;
+    font-family: 'Nothing You Could Do' ;
+    font-size: 48px;
+    text-align: center; 
+    width: 15%;
+    margin-left: 5%;
+    margin-top: 80px;
+}
+.text4{
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    color: azure;
+    margin-top: 60px;
+    margin-left: 80px;
+}
+.about4{
+    width: 900px;
+    height: 500px;
+    font-size:33px;
+    line-height: 80px; 
+    letter-spacing: 2px;
+}
+.image4{
+    margin-top: 60px;
+}
+.text5{
+    display: flex;
+    justify-content: flex-start;
+    gap: 80px;
+    color: azure;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+.about5 img{
+height: 390px;
+margin-top: 20px;
+margin-right:80px;
+}
+.about5 h1{
+    overflow: hidden;
+    color: #F2C94C;
+    font-family: 'Nothing You Could Do' ;
+    font-size: 48px;
+    width: 50%;
+    margin-top: 100px;    
+}
+.about5 p{
+    width: 600px;
+    height: 60px;
+    font-size:33px;
+    line-height: 60px; 
+    letter-spacing: 2px;
+    margin-top: 30px;
 }
