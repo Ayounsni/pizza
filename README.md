@@ -1,4 +1,4 @@
-# Restau Pizza
+
 # README - Projet de Site Web pour Restaurant
 Description du Projet
 Ce projet vise à concevoir et développer un site web pour un restaurant, comprenant les pages d'accueil, de menu, d'À Propos et de contact.
