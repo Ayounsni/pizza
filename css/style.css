@@ -7,7 +7,7 @@
 	list-style: none;
     overflow-x: hidden;
 }
-.navbar{
+header{
     height: 70px;
     display: flex;
     justify-content: space-around;
@@ -15,18 +15,34 @@
     align-items: center;
     position: fixed;
     width: 100%;
-    
-
+    z-index: 5;
+}
+.logo{
+    font-size: 28px;
+    margin-right: 10%;
+    color: white;
+    width: 600px;
+}
+.navbar{
+    display: flex;  
 }
 .navbar a{
-
     color: white;
-    font-size: 24px; 
+    font-size: 24px;
+    margin: 40px;
 }
-.navbar a:first-child{
-    margin-right: 600px;
-    font-size: 28px;
+.navbar a:hover{
+    color: #F2C94C;
+    border-radius: 4px;
+    font-size: 26px;
+   
 }
+.active a {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+
 .cont{
     height: 900px;
     overflow: hidden;
@@ -365,6 +381,7 @@ margin-right:80px;
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
     background-color: #D9D9D9;
 	border: none;
+    outline: none;
 	border-radius: 15px;
 	resize: none;
     margin-bottom: 40px;
@@ -375,6 +392,8 @@ margin-right:80px;
 	width: 100%;
 	padding: 20px 15px 20px 30px;
 	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    background-color: #D9D9D9;
+    outline: none;
 	border: none;
 	border-radius: 15px;
 	resize: none;
