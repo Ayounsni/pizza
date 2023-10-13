@@ -11,5 +11,7 @@ Développement : HTML, CSS
 Validation : W3C Validator
 Gestion de Projet : Méthodologie Agile
 
+
+fichier de plannification :
 https://trello.com/b/B9xPSaPc/restaurant-pizza-website
 
