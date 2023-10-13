@@ -111,14 +111,14 @@ header{
     line-height: 60px;
 }
 
-.ayoub{
+.icone{
     display: flex;
     justify-content: center;
     height: 100px;
     margin-left: 20px
 
 }
-.ayoub a{
+.icone a{
     overflow: hidden;   
 }
 .ayoub a img{
@@ -127,11 +127,11 @@ header{
     margin: 20px ;
       
 }
-.radia{
+.foot{
     height: 70px;
     background-color: #000000;
 }
-.radia p {
+.foot p {
     color: white;
     font-size: 24px; 
     text-align: center;
@@ -147,6 +147,9 @@ header{
 }
 .about{
     width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 .about h1{
     width: 320px;
@@ -164,7 +167,7 @@ header{
     margin-top: 25px;
     
 }
-.about input[type="submit"]{
+.about a{
 	background-color: transparent;
 	padding: 23px;
 	color:#F2C94C ;
@@ -172,6 +175,7 @@ header{
 	cursor: pointer; 
     border:3px solid #F2C94C;  
     font-size: 15px;
+    width: fit-content;
 
 }
 .menu h1{
@@ -203,18 +207,23 @@ header{
     justify-content: center;
     gap: 40px;
     margin-top: 50px;
+    margin-bottom: 5%;
 }
-.but input[type="submit"]{
-	background-color: transparent;
-	padding: 15px 220px;
+.but{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+	padding: 15px 22px;
 	color:#F2C94C ;
-	margin-top: 50px;
 	cursor: pointer; 
     border:3px solid #F2C94C;  
     font-size: 15px;
-    margin-left: 34%;
+    margin-left: 35%;
+    width: 30%;
 
 }
+
 .titre h1{
     overflow: hidden;
     color: white;
