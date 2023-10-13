@@ -12,6 +12,6 @@ Validation : W3C Validator
 Gestion de Projet : Méthodologie Agile
 
 
-fichier de plannification :
+Une planification des taches:
 https://trello.com/b/B9xPSaPc/restaurant-pizza-website
 
