@@ -62,11 +62,15 @@
 }
 .cont1 {
     height: 1900px ;
-    background-color: #000000;
+    background-color: #060606;
 }
 .pont{
     height: 1800px ;
-    background-color: #000000; 
+    background-color: #060606; 
+}
+.pont1 {
+    height: 1930px ;
+    background-color: #060606;
 }
 .cont2{
     height: 900px;
@@ -320,3 +324,87 @@ margin-right:80px;
     letter-spacing: 2px;
     margin-top: 30px;
 }
+.titre4 h1{
+    overflow: hidden;
+    color: white;
+    font-family: 'quintessential' ;
+    font-size: 60px;
+    text-align: center;
+    border-bottom: 3px solid #F2C94C; 
+    width: 25%;
+    margin-left: 38%;
+    line-height: 60px;
+    margin-top: 80px;
+}
+.text6{
+    width: 1100px;
+    height: 400px;
+    font-size:25px;
+    line-height: 80px; 
+    color: white;
+    text-align: center;
+    margin-left:13% ;
+    letter-spacing: 2px;
+    margin-top: 40px;   
+}
+.about6 form{
+	width: 800px;
+	font-size: 30px;
+	margin-left: 350px;
+	margin-top: 10px;
+    font-family: 'Cambay';
+    color: #F2C94C;
+    letter-spacing: 3px;
+
+}
+.about6 input{
+    font-size: 28px;
+	width: 100%;
+	display: inline-block;
+	padding: 20px 150px 20px 30px;
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+    background-color: #D9D9D9;
+	border: none;
+	border-radius: 15px;
+	resize: none;
+    margin-bottom: 40px;
+}
+.about6 textarea{
+	font-size: 28px;
+	display: inline-block;
+	width: 100%;
+	padding: 20px 15px 20px 30px;
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	border: none;
+	border-radius: 15px;
+	resize: none;
+}
+.about6 p{
+    line-height: 70px;
+}
+.about6 input[type="submit"]{
+	background-color: #F2C94C;
+	padding: 3%;
+	color: black;
+	cursor: pointer;
+    letter-spacing: 3px;
+ }   
+ .about6 input[type="submit"]:hover{
+	transition: ease .40s;
+	background-color: rgb(0, 0, 0);
+    color: #F2C94C ;
+	padding: 3%;
+    font-size: 33px;
+    border: 3px solid #F2C94C;
+}
+ .image7 img{
+    height: 200px;
+ }
+ .image6{
+    width: 300px;
+    position: absolute;
+    margin-left: 1150px;
+ }
+ .image6 img{
+    height:340px;
+ }
