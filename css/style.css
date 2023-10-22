@@ -10,7 +10,7 @@
 header{
     height: 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background-color: black;
     align-items: center;
     position: fixed;
@@ -19,21 +19,22 @@ header{
 }
 .logo{
     font-size: 28px;
-    margin-right: 10%;
+    margin-left: 5%;
     color: white;
-    width: 600px;
+    
 }
 .navbar{
-    display: flex;  
+    width: 40%;
+    display: flex; 
+    justify-content: space-around;
 }
 .navbar a{
     color: white;
     font-size: 24px;
-    margin: 40px;
+    
 }
 .navbar a:hover{
     color: #F2C94C;
-    border-radius: 4px;
     font-size: 26px;
    
 }
@@ -49,8 +50,7 @@ header{
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(39, 39, 39, 0.1) 0.01%, rgba(0, 0, 0, 0.13) 13.02%, #000000 100%), url("../img/wood.png");
     background-size: cover;
 }
-.cont h1 {
-    overflow: hidden;
+.cont h1 { 
     color: white;
     font-family: 'quintessential' ;
     font-size: 60px;
@@ -60,11 +60,11 @@ header{
     width: 25%;
     margin-left: 38%;
     line-height: 60px;
+    height: 80px;
     
 }
 .cont p{
     width: 800px;
-    display: flex;
     color: #EA9D49;
     font-family: 'Schoolbell';
     text-align: center;
@@ -99,7 +99,7 @@ header{
     margin-top: -470px;
 }
 .cont2 h1{
-    overflow: hidden;
+    height: 100px;
     color: white;
     font-family: 'quintessential' ;
     font-size: 60px;
@@ -108,18 +108,18 @@ header{
     border-bottom: 3px solid #F2C94C; 
     width: 25%;
     margin-left: 38%;
-    line-height: 60px;
+    
 }
 
 .icone{
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: auto;
     margin-left: 20px
 
 }
 .icone a{
-    overflow: hidden;   
+       
 }
 .icone a img{
     height: 100px;
